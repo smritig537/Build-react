@@ -1,0 +1,14 @@
+.galileoDesign {
+  width: 100%;
+  height: 2900px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .galileoDesign {
+    height: auto;
+    min-height: 2900;
+  }
+}

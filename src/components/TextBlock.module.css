@@ -1,0 +1,70 @@
+.webbuilder {
+  height: 255px;
+  width: 1024px;
+  position: absolute;
+  margin: 0 !important;
+  right: -294px;
+  bottom: -162px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  z-index: 13;
+}
+.wixpro72InchResponsiveContainer {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 21;
+}
+.roboticAutomation {
+  width: 490px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.mainHighlights,
+.whatYouGet {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 22;
+}
+.mainHighlights {
+  width: 153px;
+}
+.whatYouGet {
+  flex: 1;
+  max-width: 100%;
+}
+.text,
+.textBlock,
+.textFrame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textFrame {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  color: var(--color-dimgray-200);
+}
+.text,
+.textBlock {
+  flex-direction: column;
+  gap: 10px 0;
+  color: var(--color-darkslategray);
+}
+.textBlock {
+  gap: 4px 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}
